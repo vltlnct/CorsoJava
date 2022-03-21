@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main2 {
     public static void main(String[] args) {
 
@@ -8,6 +10,8 @@ public class Main2 {
             System.out.println("Hai inserito in input : " + args[i]);
             listaValori[i] =  Integer.parseInt(args[i]);
         }
+        System.out.println("Lettura delle stringhe in ingresso : "+"{"+ Arrays.deepToString(args) + "}");
+
 
         if (args.length > 0) {
             try {

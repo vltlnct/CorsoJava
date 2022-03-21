@@ -18,6 +18,10 @@ public class AutoVeicolo {
         this.carburanteNelSerbatoio = 0;
     }
 
+    public String getTipo() {
+        return tipo;
+    }
+
     public String getMarca() {
         return this.marca;
     }
@@ -74,4 +78,14 @@ public class AutoVeicolo {
         this.carburanteNelSerbatoio = this.carburanteNelSerbatoio - litriConsumati;
     }
 
+
+    // Usato in BootConcessionarioAutoMoto per tutti gli autoveicoli
+    public String toString() {
+        String outString = new String();
+        outString = " marca:" + this.getMarca() +
+                ", modello:" +this.getModello() +
+                ", consumo medio (l/km):" +Double.toString( this.getLitriConsumoMedio() ) +
+                ", carburante nel serbatoio:" +Double.toString(this.getCarburanteNelSerbatoio()) + " ";
+        return outString;
+    }
 }

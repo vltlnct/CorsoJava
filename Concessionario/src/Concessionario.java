@@ -34,6 +34,5 @@ public class Concessionario {
 */
         String outString = new String("{\n"+ Arrays.deepToString(listaAuto) + "}");
         return  outString;
-
     }
 }

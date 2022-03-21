@@ -1,6 +1,7 @@
 public class BootConcessionarioNew {
 
-    public static void main(String[] args) {
+
+    public static void gestioneAuto(){
         ConcessionarioNew c = new ConcessionarioNew();
         c.addAuto(new Auto("Hyundai","i10",4.8, "AA123BB"));
         c.addAuto(new Auto("Mazda","2",4.8, "BB456CC"));
@@ -19,9 +20,12 @@ public class BootConcessionarioNew {
             c.getAuto(2).percorriDistanza(50);
         }
         System.out.println(c.getAuto(2).viewDataAuto());
-
         System.out.println(c.viewListaAuto());
         // write your code here
+    }
+
+    public static void main(String[] args) {
+        gestioneAuto();
     }
 
 }

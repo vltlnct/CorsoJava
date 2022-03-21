@@ -1,12 +1,12 @@
-public class Auto extends AutoVeicolo{
+public class Moto extends AutoVeicolo {
 
     private String targa;
 
-    public Auto(String marca,
+    public Moto(String marca,
                 String modello,
                 double litriConsumoMedio,
                 String targa) {
-        super("Auto", marca, modello, litriConsumoMedio);
+        super("Moto", marca, modello, litriConsumoMedio);
         this.targa = targa;
     }
 
@@ -14,17 +14,8 @@ public class Auto extends AutoVeicolo{
         return targa;
     }
 
-
-    // Usato in BootConcessionarioAutoVeicoli per tutti gli autoveicoli
-    public String toString() {
-        String outString = new String();
-        outString = "[ tipo:"+ this.getTipo() + ", targa:" + this.getTarga() + ", " + super.toString() + " ]\n";
-        return outString;
-    }
-
-
-// Usato in BootConcessionario e BootConcessionarioNew per le auto
-    public String viewDataAuto() {
+    // Usato in BootConcessionarioAutoMoto per le moto
+    public String viewDataMoto() {
         String outString = new String();
         outString = "[ targa:" + this.getTarga() +
                 ", marca:" + this.getMarca() +
@@ -34,6 +25,11 @@ public class Auto extends AutoVeicolo{
         return outString;
     }
 
+    public String toString() {
+        String outString = new String();
+        outString = "[ tipo:"+ this.getTipo() + ", targa:" + this.getTarga() + ", " + super.toString() + " ]\n";
+        return outString;
+    }
 
 
 }
