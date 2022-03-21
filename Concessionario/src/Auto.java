@@ -24,6 +24,15 @@ public class Auto extends AutoVeicolo{
         return outString;
     }
 
+    public String toString() {
+        String outString = new String();
+        outString = "[ targa:" + this.getTarga() +
+                ", marca:" + this.getMarca() +
+                ", modello:" +this.getModello() +
+                ", consumo medio (l/km):" +Double.toString( this.getLitriConsumoMedio() ) +
+                ", carburante nel serbatoio:" +Double.toString(this.getCarburanteNelSerbatoio()) + "]\n";
+        return outString;
+    }
 
 
 }

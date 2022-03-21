@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Concessionario {
     private Auto[] listaAuto;
     private int indiceArray;
@@ -22,13 +24,16 @@ public class Concessionario {
 
     public String viewListaAuto()
     {
+/*
         String outString = new String("{\n");
         for (int i=0; i<this.indiceArray; i++){
             outString += this.listaAuto[i].viewDataAuto();
         }
         outString += "}";
-
         return outString;
-//        return Arrays.deepToString(listaAuto);
+*/
+        String outString = new String("{\n"+ Arrays.deepToString(listaAuto) + "}");
+        return  outString;
+
     }
 }
