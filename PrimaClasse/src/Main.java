@@ -1,13 +1,20 @@
-class Persona {
-    public String final = "IBM";
-    private String cognome;
-    private String nome;
 
-}
 
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	  Persona p1 = new Persona("Engineering", "Paolo", "Rossi");
+      Persona p2 = new Persona("Engineering", "Marco", "Neri");
+
+
+
+
+
+/*      p1.ciaoDaPersona();
+      p2.ciaoDaPersona();
+
+      System.out.println( p1.restituisciCiaoDaPersona() );
+      System.out.println( p2.restituisciCiaoDaPersona() );*/
+
     }
 }

@@ -1,0 +1,29 @@
+Il modificatore final
+Il modificatore final è molto semplice da comprendere in
+quanto le implementazioni possibili sono legate alla
+sua traduzione letterale: finale o non mutabile.
+Dunque, il modificatore final può essere utilizzato, come
+abbiamo visto all'inizio di questa guida, per definire
+una variabile che di fatto diverrà una costante per l'istanza
+della classe. Final può essere applicato anche ai metodi di
+una determinata classe e un metodo definito come final
+(finale non modificabile) implica che se eredito la classe che
+contiene il metodo su questo non potrà essere eseguito l'override.
+Anche per quanto riguarda una classe questa può essere definita
+come final e di conseguenza una classe definita in questo modo
+non potrà essere ereditata. Ciò è logicamente comprensibile
+in quanto se dichiaro una classe con il modificatore final
+intendo una classe finale ovvero una classe completa che non
+necessita di specializzazioni o estensioni e dunque è più
+che logico che non sia possibile ereditarla.
+
+Il modificatore static
+Il modificatore static è invece un modificatore di più difficile
+comprensione, ma molto potente. Iniziamo con il dire che il modificatore
+static può essere applicato a metodi e a variabili di una classe.
+L'effetto di dichiarare un metodo static è quello di rendere il metodo
+di fatto comune a tutte le istanze della classe. Dunque, per chiarire
+meglio il concetto, pensiamo a tutte le funzioni matematiche che il
+Java ci mette a diposizione sfruttando la classe Math. La classe Math
+mette a disposizione un metodo statico che restituisce il massimo
+tra due interi e il risultato può essere ottenuto con il seguente codice:

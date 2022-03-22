@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -5,13 +7,41 @@ public class Main {
         int valoreIntero = 10;
         double valoreDoppiaPrec = 10.5;
         float valoreFloat = 10.5F;
-        char c = 'a';
+        boolean cond = true;
+        char c = 65;
+        int [] listaNumeri = new int[10];
+        double [] d = new double[10];
         char[] str1 = new char[10];
         char[] str2 = new char[]{'C','i','a','o',' ','a',' ','t','u','t','t','i'};
+        char[] str3 = new char[]{'a','b','c','d',' ','A',' ','a','b','c','d'};
 
-        System.out.println("<- Output variabili array di caratteri ->");
+        Stringa laMiaStringa1 = new Stringa(str2);
+        System.out.println(laMiaStringa1);
+        System.out.println(str2);
+        System.out.println(laMiaStringa1.toUpperCase());
+        System.out.println(str2);
+
+        Stringa laMiaStringa2 = new Stringa(str3.length, str3);
+        System.out.println(laMiaStringa2);
+        System.out.println(str3);
+        System.out.println(laMiaStringa2.toUpperCase());
+        System.out.println(str3);
+
+        System.out.println("Inserisci un carattere");
+        Scanner tastiera = new Scanner(System.in);
+        String s = tastiera.nextLine();
+
+
+/*        System.out.println("<- Output variabili array di caratteri ->");
         System.out.println(str1);
         System.out.println(str2);
+
+        String laMiaStringa = new String(str2);
+        System.out.println(laMiaStringa);
+        System.out.println(laMiaStringa.toUpperCase());
+
+        Stringa strMia = new Stringa();*/
+
 
         // Creo oggetti Wrapper dea dati primitivi - metodo deprecato
         Integer intObj = new Integer(10);
@@ -44,7 +74,7 @@ public class Main {
         // Inquesto caso il metodo con istanziazione dell'oggetto è corretto
 
         //Creo un oggetto String con un array di char
-        String str1Obj = new String(str1);
+/*        String str1Obj = new String(str1);
         String str2Obj = new String(str1);
         //Creo un oggetto String con una costante
         String strObj = new String("\nquesta è un oggetto String");
@@ -55,11 +85,9 @@ public class Main {
         System.out.println(str2Obj);
 
         //Come
-
-
         System.out.println(intObj);
         System.out.println(doubObj);
-        System.out.println(floatObj);
+        System.out.println(floatObj);*/
 
         // trasformazione da Wrapper Class a primitivo
         int valoreIntero1 = intObj.intValue();
@@ -83,4 +111,6 @@ public class Main {
 //          ArrayList<Integer> myNumbers = new ArrayList<Integer>(); // Valid
 
     }
+
+
 }
