@@ -2,12 +2,15 @@ public class BootConcessionarioNew {
 
 
     public static void gestioneAuto(){
-        ConcessionarioNew c = new ConcessionarioNew();
-        c.addAuto(new Auto("Hyundai","i10",4.8, "AA123BB"));
-        c.addAuto(new Auto("Mazda","2",4.8, "BB456CC"));
-        c.addAuto(new Auto("Kia","Picanto",5, "CC678DD"));
+        ConcessionarioNew c = new ConcessionarioNew(4);
         c.addAuto(new Auto("Mitsubishi","Space Star",5, "DD890EE"));
+        c.addAuto(new Auto("Kia","Picanto",5, "CC678DD"));
+        c.addAuto(new Auto("Mazda","2",4.8, "BB456CC"));
+        c.addAuto(new Auto("Hyundai","i10",4.8, "AA123BB"));
+
         System.out.println(c.viewListaAuto());
+        System.out.println(" dimensione della lista " + c.getDimensioneLista());
+        c.ordina();
 
         c.getAuto(0).addCarburanteNelSerbatoio(20);
         if (c.getAuto(0).verificaCarburante(150) == 1) {

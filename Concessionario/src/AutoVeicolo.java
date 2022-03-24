@@ -1,7 +1,10 @@
-public class AutoVeicolo {
+import java.util.Comparator;
+
+public class AutoVeicolo /*implements Comparable<AutoVeicolo>*/ {
     private String tipo;  //Auto, moto, autotreno
     private String marca;
     private String modello;
+    private String targa;
 
     private double litriConsumoMedio;   // 5.2l/100 Km percorso misto 20km/l
     private double carburanteNelSerbatoio; // l di carburante presente nel serbatoio
@@ -10,17 +13,17 @@ public class AutoVeicolo {
     public AutoVeicolo(String tipo,
                        String marca,
                        String modello,
-                       double litriConsumoMedio) {
+                       double litriConsumoMedio,
+                       String targa) {
         this.tipo = tipo;
         this.marca = marca;
         this.modello = modello;
         this.litriConsumoMedio = litriConsumoMedio;
+        this.targa = targa;
         this.carburanteNelSerbatoio = 0;
     }
 
-    public String getTipo() {
-        return tipo;
-    }
+    public String getTipo() { return tipo; }
 
     public String getMarca() {
         return this.marca;
@@ -88,4 +91,28 @@ public class AutoVeicolo {
                 ", carburante nel serbatoio:" +Double.toString(this.getCarburanteNelSerbatoio()) + " ";
         return outString;
     }
+
+    public String getTarga() {
+        return targa;
+    }
+
+    public void setTarga(String targa) {
+        this.targa = targa;
+    }
+
+/*
+ Questa seconda soluzione si applica quando la stessa classe AutoVeicoli implementa
+ l'interfaccia Comparable<AutoVeicolo>
+*/
+
+/*    @Override
+    public int compareTo(AutoVeicolo o) {
+        *//*
+        Zero	Due stringhe sono uguali.
+        Maggiore di zero	La stringa che si richiama è maggiore di str.
+        Meno di zero	La stringa invocante è minore di str.
+        *//*
+        int risultato =  (this.getTarga().compareTo(o.getTarga()));
+        return risultato;
+    }*/
 }

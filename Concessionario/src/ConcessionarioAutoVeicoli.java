@@ -1,38 +1,52 @@
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Collections;
+import java.util.Comparator;
 
+/* Viene usata ArrayList<AutoVeicolo> e
+ per l'ordinamento viene usata ArrayList.sort(Comparator<? super E> c)
+*/
 public class ConcessionarioAutoVeicoli {
-    List<AutoVeicolo> listaAutoVeicolo;
+
+    ArrayList<AutoVeicolo> listaAuto;
 
 
-    public ConcessionarioAutoVeicoli() {
-        listaAutoVeicolo = new ArrayList<AutoVeicolo>();
+    public ConcessionarioAutoVeicoli(int dim) {
+        listaAuto = new ArrayList<AutoVeicolo>(dim);
     }
 
-    public List<AutoVeicolo> getListaAuto() {
-        return this.listaAutoVeicolo;
-
+    public ArrayList<AutoVeicolo> getListaAuto() {
+        return this.listaAuto;
     }
 
 
     public void addAutoVeicolo(AutoVeicolo nuovoAutoVeicolo) {
-        this.listaAutoVeicolo.add(nuovoAutoVeicolo);
+        this.listaAuto.add(nuovoAutoVeicolo);
     }
 
     public AutoVeicolo getAutoVeicolo(int i){
-        return this.listaAutoVeicolo.get(i);
+
+        return this.listaAuto.get(i);
     }
 
     public String toString()
     {
         String outString = new String("{\n");
-
-        for (int i=0; i<listaAutoVeicolo.size(); i++){
-            outString += this.listaAutoVeicolo.get(i).toString();
+        for (int i=0; i<listaAuto.size(); i++){
+            outString += this.listaAuto.get(i).toString();
         }
         outString += "}";
         return outString;
 
+    }
+
+    public void ordina()
+    {
+        /*
+        Questa soluzione utilizza una classe Comparator<AutoVeicolo> :
+                OrdinaPerTarga implements Comparator<AutoVeicolo>
+        vedere il metodo ArrayList.sort(Comparator<? super E> c)
+        */
+        listaAuto.sort( new OrdinaPerTarga());
     }
 
 }
