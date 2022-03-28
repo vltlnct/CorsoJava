@@ -36,7 +36,7 @@ public class Concessionario {
     }
 
 
-    public void ordina()
+    public void ordinaPerTarga()
     {
         // realizzare un ordinamento con ciclo for
         Auto tem;

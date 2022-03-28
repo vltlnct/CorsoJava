@@ -36,6 +36,10 @@ public class Main {
         // un metodo della classe Main
         Funzione1(a, s);
 
+        p1 = null;
+        p2 = null;
+
+        System.gc();
 
 /*        // Uso il nome della classe Main
         Main.Funzione1(a);

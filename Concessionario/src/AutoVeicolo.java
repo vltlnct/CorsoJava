@@ -23,7 +23,22 @@ public class AutoVeicolo /*implements Comparable<AutoVeicolo>*/ {
         this.carburanteNelSerbatoio = 0;
     }
 
-    public String getTipo() { return tipo; }
+
+    public AutoVeicolo(String marca,
+                       String modello,
+                       double litriConsumoMedio,
+                       String targa) {
+        this.tipo = "N/A";
+        this.marca = marca;
+        this.modello = modello;
+        this.litriConsumoMedio = litriConsumoMedio;
+        this.targa = targa;
+        this.carburanteNelSerbatoio = 0;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
 
     public String getMarca() {
         return this.marca;

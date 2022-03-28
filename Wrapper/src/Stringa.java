@@ -57,6 +57,9 @@ public class Stringa {
             System.out.println("Addio dalla classe Stringa");
         }
 
+/*         public static void main(String[] args) {
+                System.out.println("Questo main parte da Stringa");
+         }*/
 }
 
 

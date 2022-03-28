@@ -43,7 +43,7 @@ public class ConcessionarioNew {
            return  outString;
         }
 
-    public void ordina()
+    public void ordinaPerTarga()
     {
         /*
         Questa soluzione utilizza una classe Comparator<AutoVeicolo> :

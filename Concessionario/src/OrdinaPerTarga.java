@@ -7,6 +7,7 @@ public class OrdinaPerTarga implements Comparator<AutoVeicolo> {
      */
     @Override
     public int compare(AutoVeicolo o1, AutoVeicolo o2) {
+        // usa il metodo compareTo di String
         return o1.getTarga().compareTo(o2.getTarga());
     }
 }

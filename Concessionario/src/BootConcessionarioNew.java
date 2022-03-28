@@ -10,7 +10,7 @@ public class BootConcessionarioNew {
 
         System.out.println(c.viewListaAuto());
         System.out.println(" dimensione della lista " + c.getDimensioneLista());
-        c.ordina();
+        c.ordinaPerTarga();
 
         c.getAuto(0).addCarburanteNelSerbatoio(20);
         if (c.getAuto(0).verificaCarburante(150) == 1) {

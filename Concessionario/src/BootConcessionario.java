@@ -8,7 +8,7 @@ public class BootConcessionario {
         c.addAuto(new Auto("Hyundai","i10",4.8, "AA123BB"));
         System.out.println(c.viewListaAuto());
 
-        c.ordina();
+        c.ordinaPerTarga();
 
         c.getListaAuto()[0].addCarburanteNelSerbatoio(20);
         if (c.getListaAuto()[0].verificaCarburante(150) == 1) {
