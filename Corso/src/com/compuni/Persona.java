@@ -53,15 +53,23 @@ public class Persona extends Object {
         return  st; //super.toString();
 
     }
-    @Override
+
     // signature o firma della funzione
     // <visibilità> <tipo di ritorno> <nome> <pamaetri in ingresso ...>
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Persona)) return false;
+        if (!(o instanceof Persona))
+            return false;
         Persona persona = (Persona) o;
-        return getEta() == persona.getEta() && Objects.equals(getNome(), persona.getNome()) && Objects.equals(getCognome(), persona.getCognome());
+        boolean ret = this.getEta() == persona.getEta()
+                && Objects.equals(getNome(), persona.getNome())
+                && Objects.equals(getCognome(),
+                persona.getCognome());
+        return ret;
     }
+
 
 
     // Overloading

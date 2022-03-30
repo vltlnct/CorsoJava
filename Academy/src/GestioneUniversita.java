@@ -19,7 +19,7 @@ public class GestioneUniversita {
 
     }
     public Object getComponente(int i) {
-        return (Persona)this.popolazione.get(i);
+        return this.popolazione.get(i);
 
 //        return  this.popolazione[i];
     }

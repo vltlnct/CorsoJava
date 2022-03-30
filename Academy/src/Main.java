@@ -48,14 +48,20 @@ public class Main {
 
        for (int j=0; j<gu.getDimensione(); j++)
        {
-           System.out.println( ((Persona) gu.getComponente(j)).getCognome() );
 
-           if ( gu.getComponente(j) instanceof Studente) {
-               System.out.println( ((Studente)(gu.getComponente(j))).getMatricola() );
+           Studente referencePers = (Studente) gu.getComponente(j);
+           System.out.println( referencePers.getCognome() );
+
+/*           if ( gu.getComponente(j) instanceof Studente) {
+               System.out.println("Ho trovato una istanza della classe Studente");
+    *//*               Studente oggettoCorrente = (Studente) gu.getComponente(j);
+               System.out.println( oggettoCorrente.getMatricola() );*//*
            }
            if ( gu.getComponente(j) instanceof Docente) {
-               System.out.println( ((Docente)(gu.getComponente(j))).getCodFiscale() );
-           }
+               System.out.println("Ho trovato una istanza della classe Docente");
+*//*               Docente oggettoCorrente = (Docente) gu.getComponente(j);
+               System.out.println( oggettoCorrente.getCodFiscale() );*//*
+           }*/
 
        }
 
