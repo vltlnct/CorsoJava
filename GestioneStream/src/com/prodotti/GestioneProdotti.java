@@ -8,12 +8,19 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class GestioneProdotti {
-        private ArrayList<String> rowToTrasform;
         private ArrayList<Prodotto> listaProdotti;
 
-        public GestioneProdotti(ArrayList<String> righe){
-            rowToTrasform = righe;
-            listaProdotti = new ArrayList();
+        public GestioneProdotti(ArrayList<String> rowToTrasform){
+            listaProdotti = new ArrayList<Prodotto>();
+            System.out.println("--- Con each loop ---");
+            String s;
+            String [] vet = new String[10];
+            for (String elementoCorrente: rowToTrasform){
+                s = elementoCorrente;
+                vet = s.split(",");
+                System.out.println(vet[0]+" "+s);
+                listaProdotti.add(this.getProdotti(vet));
+            }
         }
 
         private Prodotto getProdotti (String[] attributi) {
@@ -49,58 +56,59 @@ public class GestioneProdotti {
         }
 
         public ArrayList<Prodotto> getListaProdotti(){
-            System.out.println("--- Con each loop ---");
-            String s;
-            String [] vet = new String[10];
-            for (String elementoCorrente: rowToTrasform){
-                s = elementoCorrente;
-                vet = s.split(",");
-                System.out.println(vet[0]+" "+s);
-                listaProdotti.add(this.getProdotti(vet));
-            }
             return listaProdotti;
         }
 
-    public String toJSON() {
-        Gson gson = new Gson();
-        StringBuilder sb = new StringBuilder();
-        for(Prodotto d : listaProdotti) {
-            sb.insert(0,gson.toJson(d)+"\n");
-        }
-        return sb.toString();
-    }
-
-
-    public void ordinaPerCodice()
-    {
-        /*
-        Questa soluzione utilizza una classe Comparator<AutoVeicolo> :
-                OrdinaPerTarga implements Comparator<AutoVeicolo>
-        Vedere il metodo 	Arrays.sort(T[] a, Comparator<? super T> c)
-        */
-        listaProdotti.sort( new OrdinaPerCodice());
-    }
-
-
-    public void ordinamentoIngenuo(){
-
-           // realizzare un ordinamento con ciclo for
-        Prodotto tem;
-        Prodotto p1;
-        Prodotto p2;
-        int i,j;
-        for (i=0; i<listaProdotti.size(); i++)
-            for (j=0; j<listaProdotti.size()-1; j++){
-                p1 = (Prodotto)listaProdotti.get(j);
-                p2 = (Prodotto)listaProdotti.get(j+1);
-
-                if (p1.getCodice().compareTo(p2.getCodice()) > 0){
-                    tem = p1;
-                    p1 = p2;
-                    p2 = tem;
-                }
+        public ArrayList<Alimento> getListaAlimenti(){
+            ArrayList<Alimento> listaAlimenti = new ArrayList<Alimento>();
+            for (Prodotto elementoCorrente: listaProdotti){
+                if (elementoCorrente instanceof Alimento)
+                    listaAlimenti.add( (Alimento) elementoCorrente);
             }
+            return listaAlimenti;
+        }
+
+
+
+    public ArrayList<Elettronico> getListaElettronici(){
+        ArrayList<Elettronico> listaElettronico = new ArrayList<Elettronico>();
+        for (Prodotto elementoCorrente: listaProdotti){
+            if (elementoCorrente instanceof Elettronico)
+                listaElettronico.add( (Elettronico) elementoCorrente);
+        }
+        return listaElettronico;
     }
+
+
+
+    public String toJSON() {
+            Gson gson = new Gson();
+            StringBuilder sb = new StringBuilder();
+            for(Prodotto d : listaProdotti) {
+                sb.insert(0,gson.toJson(d)+"\n");
+            }
+            return sb.toString();
+        }
+
+        public void ordinamentoIngenuo(){
+
+               // realizzare un ordinamento con ciclo for
+            Prodotto tem;
+            Prodotto p1;
+            Prodotto p2;
+            int i,j;
+            for (i=0; i<listaProdotti.size(); i++)
+                for (j=0; j<listaProdotti.size()-1; j++){
+                    p1 = (Prodotto)listaProdotti.get(j);
+                    p2 = (Prodotto)listaProdotti.get(j+1);
+
+                    if (p1.getCodice().compareTo(p2.getCodice()) > 0){
+                        tem = p1;
+                        p1 = p2;
+                        p2 = tem;
+                    }
+                }
+        }
 
 
 

@@ -7,22 +7,26 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-/*        Persona p1 = new Persona("Marco", " Neri", 30);
-        Persona p2 = new Persona();
-        System.out.println(p1.toString());
-        System.out.println(p2.toString());
+        ListaComponenti l = new ListaComponenti(10);
 
-        Studente s1 = new Studente("Paolo", " Rossi", 30);
-        Studente s2 = new Studente();
-        System.out.println(s1.toString());
-        System.out.println(s2.toString());
+        l.addComponente( new Persona("Marco", "Neri", 30));
+        l.addComponente( new Studente("Paolo", "Rossi", 30));
+        l.addComponente( new Studente("Franco", "Verdi", 30));
+        l.addComponente( new Docente("Maria", "Gialli", 45, "Italiano"));
+        l.addComponente( new Docente("Piero", "Blu", 50, "Informatica"));
+        l.ordinaPerCognome();
+        System.out.println("Lista Ordinata : "+l);
 
-        Docente d1 = new Docente("Giulio", " Neri", 30, "Italiano");
-        Docente d2 = new Docente();
-        System.out.println(d1.toString());
-        System.out.println(d2.toString());*/
+/*        l.sort(new OrdinaPerCognome());
+        System.out.println("Lista Ordinata : "+l);
+/*
 
-        // Argomento : confronto tra valori e oggetti
+
+
+
+
+
+// Argomento : confronto tra valori e oggetti
         int a = 1;
         System.out.println(a == 1);
         char c = 'A';
@@ -45,6 +49,6 @@ public class Main {
         Persona p1 = new Persona("Marco", "Neri", 30);
         Persona p2 = new Persona("Marco", "Neri", 30);
         System.out.println(" p1 == p2 : " + (p1 == p2));
-        System.out.println(" p1.equals(st4) :" + p1.equals(st4));
+        System.out.println(" p1.equals(st4) :" + p1.equals(st4));*/
     }
 }

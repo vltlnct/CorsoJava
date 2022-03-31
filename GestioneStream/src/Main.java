@@ -65,5 +65,17 @@ public class Main {
         String conVJSON = gestioneProdotti.toJSON();
         g.scriviFileJSON(conVJSON);
 
+
+/*        ArrayList<Alimento> l = gestioneProdotti.getListaAlimenti();
+        Alimento*/
+
+        ArrayList<Elettronico> e = gestioneProdotti.getListaElettronici();
+        Elettronico.ordinaPerClasseEnergetica(e);
+
+        for (Elettronico elementoCorrente: e){
+                System.out.println( elementoCorrente);
+        }
+
+
     }
 }

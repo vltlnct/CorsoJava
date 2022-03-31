@@ -1,6 +1,6 @@
 {"classeEnergetica":"A","codice":"E006","dataIngresso":"Jan 28, 2022, 12:03:00 AM","nome":"Frigorifero","produttore":"Miele"}
 {"classeEnergetica":"B","codice":"E005","dataIngresso":"Jan 27, 2022, 12:03:00 AM","nome":"Lavastoviglie","produttore":"Miele"}
-{"classeEnergetica":"B","codice":"E004","dataIngresso":"Jan 5, 2022, 12:04:00 AM","nome":"Frigorifero","produttore":"Samsung"}
+{"classeEnergetica":"C","codice":"E004","dataIngresso":"Jan 5, 2022, 12:04:00 AM","nome":"Frigorifero","produttore":"Samsung"}
 {"modello":"Classico","sesso":"U","materiale":"Seta","taglia":42,"codice":"V006","dataIngresso":"Jan 4, 2022, 12:04:00 AM","nome":"Calze","produttore":"Armani"}
 {"modello":"Classico","sesso":"U","materiale":"Cotone","taglia":48,"codice":"V005","dataIngresso":"Jan 3, 2022, 12:04:00 AM","nome":"Pantaloni","produttore":"Ralph Lauren"}
 {"modello":"Sportivo","sesso":"D","materiale":"Misto Lana","taglia":40,"codice":"V004","dataIngresso":"Jan 2, 2022, 12:04:00 AM","nome":"Cappotto","produttore":"Armani"}
