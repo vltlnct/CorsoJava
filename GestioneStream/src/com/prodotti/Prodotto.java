@@ -21,20 +21,4 @@ public class Prodotto {
         return codice;
     }
 
-
-    @Override
-    public boolean equals(Object o) {
-/*        if (this == o) return true;
-        if (!(o instanceof Prodotto))
-            return false;
-        Prodotto persona = (Prodotto) o;
-        boolean ret = this.getEta() == persona.getEta()
-                && Objects.equals(getNome(), persona.getNome())
-                && Objects.equals(getCognome(),
-                persona.getCognome());
-        return ret;*/
-        return true;
-    }
-
-
 }

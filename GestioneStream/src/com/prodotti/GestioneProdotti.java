@@ -5,7 +5,6 @@ import com.google.gson.Gson;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 
 public class GestioneProdotti {
@@ -29,7 +28,7 @@ public class GestioneProdotti {
                         dScad = (new SimpleDateFormat("dd/mm/yyyy")).parse(attributi[5]);
                     } catch (ParseException  e){}
 
-                    retval = new Alimenti(attributi[1],  dIn, attributi[3], attributi[4], dScad, attributi[6]);
+                    retval = new Alimento(attributi[1],  dIn, attributi[3], attributi[4], dScad, attributi[6]);
                     break;
                 case "Vestiario":
                     try {
@@ -43,7 +42,7 @@ public class GestioneProdotti {
                         dIn = (new SimpleDateFormat("dd/mm/yyyy")).parse(attributi[2]);
                     } catch (ParseException  e){}
 
-                    retval = new Elettronici(attributi[1], dIn, attributi[3], attributi[4], attributi[5]);
+                    retval = new Elettronico(attributi[1], dIn, attributi[3], attributi[4], attributi[5]);
                     break;
             }
             return retval;
@@ -67,8 +66,6 @@ public class GestioneProdotti {
         StringBuilder sb = new StringBuilder();
         for(Prodotto d : listaProdotti) {
             sb.insert(0,gson.toJson(d)+"\n");
-
-
         }
         return sb.toString();
     }
