@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd22e8dc-b447-47c4-a29d-312709e8c9fb" name="Changes" comment="31.03.2022">
-      <change afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/Comparatore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/ListaComponenti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/OrdinaPerCognome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Academy/src/OrdinaPerCognome.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Academy/src/OrdinaPerCognome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso/out/production/Corso/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/out/production/Corso/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON_Prodotti.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JSON_Prodotti.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/prodotti/GestioneProdotti.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/prodotti/GestioneProdotti.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/prodotti/OrdinaPerCodice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/prodotti/OrdinaPerCodice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/prodotti/Alimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/prodotti/Alimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/prodotti/Elettronico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/prodotti/Elettronico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/prodotti/GestioneProdotti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/prodotti/GestioneProdotti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/prodotti/OrdinaPerCodice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/prodotti/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/prodotti/Prodotto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/editoria/Mensile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/editoria/ProdottoEditoriale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/editoria/Quotidiano.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/editoria/Settimanale.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
