@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd22e8dc-b447-47c4-a29d-312709e8c9fb" name="Changes" comment="31.03.2022">
-      <change beforePath="$PROJECT_DIR$/src/com/editoria/Mensile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/editoria/ProdottoEditoriale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/editoria/Quotidiano.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/editoria/Settimanale.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/OrdinaPerNome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Academy/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Academy/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/out/production/Corso/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/out/production/Corso/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Docente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Docente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Studente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Studente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/src/com/compuni/Docente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/Docente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/src/com/compuni/IlMioComparatore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/src/com/compuni/ListaComponenti.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/ListaComponenti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/src/com/compuni/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/src/com/compuni/Studente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/Studente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/prodotti/Elettronico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/prodotti/Elettronico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjCompare/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjCompare/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjCompare/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjCompare/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjCompare/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjCompare/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjCompare/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjCompare/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjCompare/PrjCompare.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjCompare/out/production/PrjCompare/Confronta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjCompare/src/Confronta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjCompare/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrjCompare/src/Persona.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

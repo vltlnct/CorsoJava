@@ -9,9 +9,9 @@ import java.util.Objects;
 
 public class Persona extends Object {
     // Quale visibilità hanno gli attributi in questo momento  ?
-    protected String nome;
-    String cognome;
-    int eta;
+    private String nome;
+    private String cognome;
+    private int eta;
 
     // signature o firma della funzione
     // <visibilità> <tipo di ritorno> <nome> <pamaetri in ingresso ...>
@@ -62,11 +62,10 @@ public class Persona extends Object {
         if (this == o) return true;
         if (!(o instanceof Persona))
             return false;
+
         Persona persona = (Persona) o;
-        boolean ret = this.getEta() == persona.getEta()
-                && Objects.equals(getNome(), persona.getNome())
-                && Objects.equals(getCognome(),
-                persona.getCognome());
+        boolean ret = Objects.equals(this.getNome(), persona.getNome())
+                && Objects.equals(this.getCognome(), persona.getCognome());
         return ret;
     }
 

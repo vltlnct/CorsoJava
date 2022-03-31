@@ -44,6 +44,7 @@ public class Elettronico extends Prodotto implements Comparable<Elettronico> {
 
     @Override
     public int compareTo(Elettronico o) {
+
         return this.getClasseEnergetica().compareTo(o.getClasseEnergetica());
     }
 }

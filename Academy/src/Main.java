@@ -38,7 +38,6 @@ public class Main {
             }
         } while (tipo.compareTo("fine")!=0);*/
 
-
         gu.addComponente(new Studente("Paolo","Rossi",dataAttuale,175,63,st,"xxxx"));
         gu.addComponente(new Studente("Marco","Verdi",dataAttuale,180,72,st,"yyyy"));
         gu.addComponente(new Studente("Mauro","Bianchi",dataAttuale,180,72,st,"yyyy"));
@@ -52,16 +51,17 @@ public class Main {
            Studente referencePers = (Studente) gu.getComponente(j);
            System.out.println( referencePers.getCognome() );
 
-/*           if ( gu.getComponente(j) instanceof Studente) {
+           if ( gu.getComponente(j) instanceof Studente) {
                System.out.println("Ho trovato una istanza della classe Studente");
-    *//*               Studente oggettoCorrente = (Studente) gu.getComponente(j);
-               System.out.println( oggettoCorrente.getMatricola() );*//*
+               Studente oggettoCorrente = (Studente) gu.getComponente(j);
+               System.out.println( oggettoCorrente.getMatricola() );
+
            }
            if ( gu.getComponente(j) instanceof Docente) {
                System.out.println("Ho trovato una istanza della classe Docente");
-*//*               Docente oggettoCorrente = (Docente) gu.getComponente(j);
-               System.out.println( oggettoCorrente.getCodFiscale() );*//*
-           }*/
+               Docente oggettoCorrente = (Docente) gu.getComponente(j);
+               System.out.println( oggettoCorrente.getCodFiscale() );
+           }
 
        }
 

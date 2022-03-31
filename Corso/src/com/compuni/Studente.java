@@ -9,6 +9,8 @@ java.lang.Object
             com.compuni.Studente
 */
 
+import java.util.Objects;
+
 public class Studente extends Persona {
     // Studente eredita variabili e metodi da Persona
 
@@ -24,16 +26,13 @@ public class Studente extends Persona {
          pur non essendo nello stesso package, dato che nome è stato dichiarato protected,
          è accessibile anche da una sotto-classe non appartetente allo stesso package
          */
-        this.nome = nome;
-        this.cognome = cognome;
+        super(nome, cognome, eta);
         this.matricola = nextMatricola++;
-        this.eta = eta;
         this.pianoDiStudio = "";
     }
 
     public Studente() {
         this("aaaa","bbbb",00);
-        this.matricola = nextMatricola++;
     }
 
     // Nuovo metodo
@@ -46,7 +45,17 @@ public class Studente extends Persona {
         pianoDiStudio += nuovoPdS + "\n";
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Studente)) return false;
+    //    if (!super.equals(o)) return false;
+        Studente studente = (Studente) o;
+        return Objects.equals(matricola, studente.matricola);
+    }
 
-
-
+    @Override
+    public int hashCode() {
+        return Objects.hash(matricola);
+    }
 }
