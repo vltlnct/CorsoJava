@@ -1,7 +1,8 @@
 import com.compuni.*;
 
-public class Main {
+import java.util.Scanner;
 
+public class Main {
     public static void ordinamentoCognome1(ListaComponenti l){
         // Ordinamento per Cognome senza interfacce
         l.ordinaPerCognome();
@@ -15,20 +16,15 @@ public class Main {
         System.out.println("Lista Ordinata : "+l);
     }
 
-
     // Esercizio 3.2
     public static void ordinamentoPerDataAssunzione1(ListaComponenti l) {
         // Ordinamento per Data Assunzione senza interfacce
         // Inserire il codice qui ...
-        // Ordinamento per Cognome senza interfacce
-        l.ordinaPerData();
-        System.out.println("Lista Ordinata : "+l);
+
     }
     public static void ordinamentoPerDataAssunzione2(ListaComponenti l) {
         // Ordinamento per Data Assunzione tramite interfaccia implementata con classe esterna
         // Inserire il codice qui ...
-        l.sort(new OrdinaPerData());
-        System.out.println("Lista Ordinata : "+l);
     }
 
 
@@ -41,20 +37,17 @@ public class Main {
         listaTotale.addComponente(new Studente("Giulio", "Bianchi", 32));
         listaTotale.addComponente(new Docente("Maria", "Gialli", 45, "Italiano"));
         listaTotale.addComponente(new Docente("Piero", "Blu", 50, "Informatica"));
-
+        /*
+         Esercizio 1 - Creare opportunamente una nuova classe Amministrativi con l'informazione dataAssunzione come
+         attributo aggiuntivo. Decidere autonomamente il tipo dell'attributo
+        */
         listaTotale.addComponente(new Amministrativo("Claudio", "Zeta", 50, "01/01/2019"));
         listaTotale.addComponente(new Amministrativo("Giulia", "Beta", 50, "01/01/2021"));
         listaTotale.addComponente(new Amministrativo("Giovanni", "Alfa", 50, "01/01/2020"));
         listaTotale.addComponente(new Amministrativo("Claudia", "Gamma", 50, "01/01/2018"));
 
-        /*
-         Esercizio 1 - Creare opportunamente una nuova classe Amministrativi con l'informazione dataAssunzione come
-         attributo aggiuntivo. Decidere autonomamente il tipo dell'attributo
-        */
-
-
         ordinamentoCognome1(listaTotale);
- //       ordinamentoCognome2(listaTotale);
+        //ordinamentoCognome2(listaTotale);
 
         ListaComponenti listaAmministrativi = new ListaComponenti(5);
 
@@ -62,14 +55,7 @@ public class Main {
          Estrarre dalla lista  listaTotale soltanto gli Amministrativi ed inserirli
          nella nuova lista listaAmministrativi
         */
-
-        // Inserire il codice qui ...
-        Object obj = null;
-        for (int i = 0; i < listaTotale.dimArray(); i++) {
-            obj = listaTotale.getComponente(i);
-            if (obj instanceof Amministrativo)
-                listaAmministrativi.addComponente(obj);
-        }
+        // Inserire il codice qui per estrazione componenti Amministrativi
 
 
         /* Esercizio 3.1
@@ -84,11 +70,8 @@ public class Main {
             2) con interfaccia implementata con classe esterna
         */
 
-        // Inserire il codice qui per richiamare i metodi statici...
+        // Inserire il codice qui per richiamare i metodi statici
 
-        System.out.println("\n\n");
-        ordinamentoPerDataAssunzione1(listaAmministrativi);
-    //    ordinamentoPerDataAssunzione2(listaAmministrativi);
+
     }
-
 }

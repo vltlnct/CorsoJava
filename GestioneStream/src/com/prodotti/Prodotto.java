@@ -15,10 +15,6 @@ class OrdinaPerCodice implements Comparator<Prodotto> {
     }
 }
 
-
-
-
-
 public class Prodotto {
     private String codice;
     private Date dataIngresso;
@@ -43,9 +39,6 @@ public class Prodotto {
     {
         lista.sort( new OrdinaPerCodice());
     }
-
-
-
 
     @Override
     public String toString() {

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da30c3b7-7a5f-4557-81f0-40cd5bb6404b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Corso/src/Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/Amministrativo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/OrdinaPerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Esempi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/eccezioni/NestedNullPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/eccezioni/Sqrt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/enums/PeriodoNascita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/enums/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/enums/Stagione.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/enums/StagioneConValori.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/enums/TavolaPeriodica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/enums/VisualizzaStagioni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/enums/VisualizzaTavolaPeriodica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/hash/GestioneLibri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/hash/Test1Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/hash/Test2Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/stream/TestOptional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestioneStream/GestioneStream.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/Testo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/out/production/Corso/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/out/production/Corso/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/src/com/compuni/ListaComponenti.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/ListaComponenti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/src/com/compuni/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/out/production/untitled104/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/out/production/untitled104/com/geststream/GestioneFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/out/production/untitled104/com/prodotti/GestioneProdotti.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/out/production/untitled104/com/prodotti/OrdinaPerCodice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/src/com/geststream/GestioneFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/src/com/geststream/GestioneFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/untitled104.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27I4cdCmUNIrjn0dm1SEtuzOIwj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.Main-GestioneLibro">
+    <configuration name="Main-GestioneLibro" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="esempi.hash.GestioneLibri" />
+      <module name="Esempi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main-NestedNullPointer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="esempi.eccezioni.NestedNullPointer" />
+      <module name="Esempi" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main-PeriodoNascita" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="esempi.enums.PeriodoNascita" />
+      <module name="Esempi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main-Sqrt" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="esempi.eccezioni.Sqrt" />
+      <module name="Esempi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main-VisualizzaStagioni" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="esempi.enums.VisualizzaStagioni" />
+      <module name="Esempi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main-VisualizzaTavolaPeriodica" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="esempi.enums.VisualizzaTavolaPeriodica" />
+      <module name="Esempi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_Test1Hash" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="esempi.hash.Test1Hash" />
+      <module name="Esempi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_Test2Hash" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="esempi.hash.Test2Hash" />
+      <module name="Esempi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main-Sqrt" />
+      <item itemvalue="Application.Main-VisualizzaStagioni" />
+      <item itemvalue="Application.Main-PeriodoNascita" />
+      <item itemvalue="Application.Main-VisualizzaTavolaPeriodica" />
+      <item itemvalue="Application.Main_Test1Hash" />
+      <item itemvalue="Application.Main_Test2Hash" />
+      <item itemvalue="Application.Main-GestioneLibro" />
+      <item itemvalue="Application.Main-NestedNullPointer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main-NestedNullPointer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da30c3b7-7a5f-4557-81f0-40cd5bb6404b" name="Changes" comment="" />
+      <created>1648994348469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648994348469</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/esempi/hash/Test2Hash.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

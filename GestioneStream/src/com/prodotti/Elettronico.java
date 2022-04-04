@@ -47,4 +47,11 @@ public class Elettronico extends Prodotto implements Comparable<Elettronico> {
 
         return this.getClasseEnergetica().compareTo(o.getClasseEnergetica());
     }
+
+    @Override
+    public String toString() {
+        return "Elettronico{" +
+                "classeEnergetica='" + classeEnergetica + ", " +
+                 super.toString() + "} ";
+    }
 }

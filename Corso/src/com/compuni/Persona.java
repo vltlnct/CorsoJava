@@ -5,9 +5,7 @@ java.lang.Object
         com.compuni.Persona
 */
 
-import java.util.Objects;
-
-public class Persona extends Object {
+public class Persona  {
     // Quale visibilità hanno gli attributi in questo momento  ?
     private String nome;
     private String cognome;
@@ -54,38 +52,10 @@ public class Persona extends Object {
 
     }
 
-    // signature o firma della funzione
-    // <visibilità> <tipo di ritorno> <nome> <pamaetri in ingresso ...>
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Persona))
-            return false;
-
-        Persona persona = (Persona) o;
-        boolean ret = Objects.equals(this.getNome(), persona.getNome())
-                && Objects.equals(this.getCognome(), persona.getCognome());
-        return ret;
-    }
-
-
-
-    // Overloading
-    // signature o firma della funzione
-    // <visibilità> <tipo di ritorno> <nome> <pamaetri in ingresso ...>
-    public void visualizza() {
-        System.out.println("Nome: " + getNome() + " Cognome: " + getCognome() + " Eta :"+getEta());
-    }
-    // <visibilità> <tipo di ritorno> <nome> <pamaetri in ingresso ...>
-    public void visualizza(String titolo) {
-        System.out.println(titolo + "Nome: " + getNome() + " Cognome: " + getCognome() + " Eta :"+getEta());
-    }
 
     // signature o firma della funzione
     // <visibilità> <tipo di ritorno> <nome> <pamaetri in ingresso ...>
-    public boolean omonimo(Persona p) {
-        return this.nome.equalsIgnoreCase(p.nome);
-    }
+
+
 
 }

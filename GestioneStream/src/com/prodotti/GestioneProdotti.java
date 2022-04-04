@@ -12,7 +12,7 @@ public class GestioneProdotti {
 
         public GestioneProdotti(ArrayList<String> rowToTrasform){
             listaProdotti = new ArrayList<Prodotto>();
-            System.out.println("--- Con each loop ---");
+            System.out.println("--- Con each loop trasferisco le righe del file in un ArrayList di Prodotti ---");
             String s;
             String [] vet = new String[10];
             for (String elementoCorrente: rowToTrasform){
@@ -88,27 +88,17 @@ public class GestioneProdotti {
                 sb.insert(0,gson.toJson(d)+"\n");
             }
             return sb.toString();
+    }
+
+    public void sort() {
+        // Dato che utilizzo un ArrayList, posso usare il metodo Collection.sort(Comparator c)
+        listaProdotti.sort(new OrdinaPerCodice());
+
+        for (Prodotto elementoCorrente: listaProdotti){
+            System.out.println(elementoCorrente.toString());
         }
-
-        public void ordinamentoIngenuo(){
-
-               // realizzare un ordinamento con ciclo for
-            Prodotto tem;
-            Prodotto p1;
-            Prodotto p2;
-            int i,j;
-            for (i=0; i<listaProdotti.size(); i++)
-                for (j=0; j<listaProdotti.size()-1; j++){
-                    p1 = (Prodotto)listaProdotti.get(j);
-                    p2 = (Prodotto)listaProdotti.get(j+1);
-
-                    if (p1.getCodice().compareTo(p2.getCodice()) > 0){
-                        tem = p1;
-                        p1 = p2;
-                        p2 = tem;
-                    }
-                }
-        }
+        System.out.println();
+    }
 
 
 

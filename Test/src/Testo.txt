@@ -1,0 +1,20 @@
+Completare il codice seguendo le indicazioni fornite
+
+Esercizio 1 -
+Creare opportunamente una nuova classe Amministrativi con l'informazione dataAssunzione come
+attributo aggiuntivo. Decidere autonomamente il tipo dell'attributo;
+
+Esercizio 2
+Estrarre dalla lista  listaTotale soltanto gli Amministrativi ed inserirli
+in una nuova lista listaAmministrativi
+
+Esercizio 3.1 e 3.2
+Completare i metodi statici
+
+            static void OrdinamentoPerData1(ListaComponenti l)
+            static void OrdinamentoPerData2(ListaComponenti l)
+
+affinchè venga realizzato l'ordinamento per Data di Assunzione dei soli componenti Amministrativi
+utilizzando le due modalità già viste per gli ordinamenti sui Cognomi
+            1) senza interfacce
+            2) con interfaccia implementata con classe esterna

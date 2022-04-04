@@ -9,12 +9,16 @@ public class Main {
     public static void main(String[] args) throws ParseException {
         // write your code here
         GestioneFile g = new GestioneFile("input.txt","JSON_Prodotti.txt");
-        GestioneProdotti gestioneProdotti = new GestioneProdotti(g.leggiFileTesto());
+        GestioneProdotti gestioneProdotti;
+
+//        gestioneProdotti = new GestioneProdotti(g.leggiFileTesto());
+        gestioneProdotti = new GestioneProdotti(g.leggiStream());
 
         ArrayList listaProdotti = gestioneProdotti.getListaProdotti();
 
-//        gestioneProdotti.ordinaPerCodice();
-        gestioneProdotti.ordinamentoIngenuo();
+
+        System.out.println("\n\nOrdinamento di tutti i prodotti per codice\n");
+        gestioneProdotti.sort();
 
         // Uso di JSON
         String conVJSON = gestioneProdotti.toJSON();
