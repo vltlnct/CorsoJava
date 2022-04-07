@@ -2,50 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da30c3b7-7a5f-4557-81f0-40cd5bb6404b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Corso/src/Test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/Amministrativo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/OrdinaPerData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Esempi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/eccezioni/NestedNullPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/eccezioni/Sqrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/enums/PeriodoNascita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/enums/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/enums/Stagione.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/enums/StagioneConValori.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/enums/TavolaPeriodica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/enums/VisualizzaStagioni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/enums/VisualizzaTavolaPeriodica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/hash/GestioneLibri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/hash/Test1Hash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/hash/Test2Hash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/stream/TestOptional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GestioneStream/GestioneStream.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/Test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/src/Testo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/enums/GestioneSemi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/enums/Semi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/generics/Confronta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/generics/GestioneProdotti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/generics/OrdinaPerCodice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/generics/Pila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/generics/Prodotto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/optional/TestOptional.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Corso.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso/out/production/Corso/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/out/production/Corso/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso/src/com/compuni/ListaComponenti.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/ListaComponenti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso/src/com/compuni/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestioneStream/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esempi/enums/VisualizzaStagioni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esempi/enums/VisualizzaStagioni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esempi/hash/Test1Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esempi/hash/Test1Hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esempi/hash/Test2Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esempi/hash/Test2Hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esempi/stream/TestOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esempi/optional/TestOptional1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GestioneStream/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestioneStream/out/production/untitled104/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestioneStream/out/production/untitled104/com/geststream/GestioneFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestioneStream/out/production/untitled104/com/prodotti/GestioneProdotti.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestioneStream/out/production/untitled104/com/prodotti/OrdinaPerCodice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestioneStream/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestioneStream/src/com/geststream/GestioneFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/src/com/geststream/GestioneFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestioneStream/untitled104.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +33,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/esempi/hash/Test1Hash.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/esempi/hash/Test2Hash.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -130,11 +105,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AreaTest/04.04.2022/Test-DavideFornasari" />
   </component>
-  <component name="RunManager" selected="Application.Main-GestioneLibro">
+  <component name="RunManager" selected="Application.Main_Test1Hash">
+    <configuration name="M Ain-TestOptional" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="esempi.optional.TestOptional" />
+      <module name="Esempi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main-GestioneLibro" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="esempi.hash.GestioneLibri" />
+      <module name="Esempi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main-GestioneProdotti" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="esempi.generics.GestioneProdotti" />
       <module name="Esempi" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,15 +152,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main-VisualizzaStagioni" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="esempi.enums.VisualizzaStagioni" />
+    <configuration name="Main-VisualizzaSemi" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="esempi.enums.GestioneSemi" />
       <module name="Esempi" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main-VisualizzaTavolaPeriodica" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="esempi.enums.VisualizzaTavolaPeriodica" />
+    <configuration name="Main-VisualizzaStagioni" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="esempi.enums.VisualizzaStagioni" />
       <module name="Esempi" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,13 +181,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main-GestioneLibro" />
+      <item itemvalue="Application.Main-GestioneProdotti" />
+      <item itemvalue="Application.Main-PeriodoNascita" />
       <item itemvalue="Application.Main-Sqrt" />
       <item itemvalue="Application.Main-VisualizzaStagioni" />
-      <item itemvalue="Application.Main-PeriodoNascita" />
-      <item itemvalue="Application.Main-VisualizzaTavolaPeriodica" />
+      <item itemvalue="Application.Main-VisualizzaSemi" />
+      <item itemvalue="Application.M Ain-TestOptional" />
       <item itemvalue="Application.Main_Test1Hash" />
       <item itemvalue="Application.Main_Test2Hash" />
-      <item itemvalue="Application.Main-GestioneLibro" />
       <item itemvalue="Application.Main-NestedNullPointer" />
     </list>
     <recent_temporary>
@@ -228,16 +219,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/esempi/hash/Test2Hash.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

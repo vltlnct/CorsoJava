@@ -1,4 +1,4 @@
-package esempi.stream;
+package esempi.optional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +28,7 @@ class Impiegato {
     }
 }
 
-public class TestOptional {
+public class TestOptional1 {
 
     private List<Impiegato> impiegati = new ArrayList<Impiegato>();
 
@@ -90,7 +90,7 @@ public class TestOptional {
     }
 
     public static void main(String args[]) {
-        TestOptional test = new TestOptional();
+        TestOptional1 test = new TestOptional1();
         test.impiegati.add(new Impiegato("001", "Paolo Rossi"));
         test.impiegati.add(new Impiegato("002", "Marco Neri"));
         test.impiegati.add(new Impiegato("003", "Giuilo Verdi"));

@@ -10,18 +10,18 @@ public class Test1Hash {
         // Creiamo una HashMap con i due parametri K e V
         HashMap<String, Double> acc_balance = new HashMap();
         // initialize the HashMap
-        acc_balance.put("Maria", 4367.34);
+        acc_balance.put("Maria", 443.0);
         acc_balance.put("Paolo", 95.43);
         acc_balance.put(null, 5.43);
         acc_balance.put("Giulio", 1200.00);
         acc_balance.put("Claudia", 499.22);
         acc_balance.put("Marco", 78.48);
-        acc_balance.put("Maria", 43.0);
+        acc_balance.put("Maria", 4367.34);
         acc_balance.put(null, 54.43);
         System.out.println("La HashMap dei bilanci è : ");
 
         // Iterare la HashMap tramite la coppia chiave e valore:
-        for (HashMap.Entry<String, Double> entry : acc_balance.entrySet()) {
+        for (HashMap.Entry<String, Double> entry : acc_balance.entrySet() ) {
             String key = entry.getKey();
             Object value = entry.getValue();
             System.out.println("Nome:[" + key + "] Valore:[" + value+"]");
@@ -55,7 +55,7 @@ public class Test1Hash {
         */
 
         // Usiamo ora una HashSet a cui passiamo un solo parametro
-        HashSet<String> hs = new HashSet<>();
+/*        HashSet<String> hs = new HashSet<>();
         // initialize the HashMap
         hs.add("Maria");
         hs.add("Paolo");
@@ -69,7 +69,7 @@ public class Test1Hash {
 
         for(String s : hs){
             System.out.println(s);
-        }
+        }*/
 
     }
 

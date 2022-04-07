@@ -1,55 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd22e8dc-b447-47c4-a29d-312709e8c9fb" name="Changes" comment="31.03.2022">
-      <change afterPath="$PROJECT_DIR$/../Corso/src/Test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/Amministrativo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/OrdinaPerData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/Esempi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/eccezioni/NestedNullPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/eccezioni/Sqrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/enums/PeriodoNascita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/enums/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/enums/Stagione.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/enums/StagioneConValori.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/enums/TavolaPeriodica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/enums/VisualizzaStagioni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/enums/VisualizzaTavolaPeriodica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/hash/GestioneLibri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/hash/Test1Hash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/hash/Test2Hash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/stream/TestOptional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestioneStream.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/Test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/src/Testo.txt" afterDir="false" />
+    <list default="true" id="fd22e8dc-b447-47c4-a29d-312709e8c9fb" name="Changes" comment="04.04.2022">
+      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/enums/GestioneSemi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/enums/Semi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/generics/Confronta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/generics/GestioneProdotti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/generics/OrdinaPerCodice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/generics/Pila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/generics/Prodotto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/optional/TestOptional.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Corso.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso/out/production/Corso/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/out/production/Corso/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/out/production/Corso/com/compuni/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso/src/com/compuni/ListaComponenti.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/ListaComponenti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso/src/com/compuni/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/com/compuni/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Esempi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Esempi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Esempi/src/esempi/enums/VisualizzaStagioni.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Esempi/src/esempi/enums/VisualizzaStagioni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Esempi/src/esempi/stream/TestOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Esempi/src/esempi/optional/TestOptional1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON_Prodotti.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JSON_Prodotti.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/geststream/GestioneFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/prodotti/GestioneProdotti.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/prodotti/OrdinaPerCodice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/geststream/GestioneFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/geststream/GestioneFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/prodotti/Elettronico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/prodotti/Elettronico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/prodotti/GestioneProdotti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/prodotti/GestioneProdotti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/prodotti/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/prodotti/Prodotto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648685640254</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="04.04.2022">
+      <created>1649032374943</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649032374943</updated>
+    </task>
+    <task id="LOCAL-00004" summary="04.04.2022">
+      <created>1649032452657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649032452657</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +187,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="31.03.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="31.03.2022" />
+    <MESSAGE value="04.04.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.04.2022" />
   </component>
 </project>

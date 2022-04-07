@@ -4,7 +4,7 @@ public class VisualizzaStagioni {
     public static void main(String [] args) {
         Stagione stagione = Stagione.PRIMAVERA;
 
-        switch(stagione) {
+/*        switch(stagione) {
             case PRIMAVERA:
                 System.out.println("Siamo in Primavera");
                 break;
@@ -17,12 +17,14 @@ public class VisualizzaStagioni {
             case INVERNO:
                 System.out.println("Siamo in Inverno");
                 break;
-        }
-        System.out.println("Iterazione foreach");
+        }*/
+
+/*        System.out.println("Iterazione foreach");
         // Operazione di iterazione con costrutto foreach
         for( Stagione d : Stagione.values() ) {
             System.out.println(d);
         }
+        */
 
         System.out.println("Conversione di stringhe in enum");
         // Conversione di stringhe in valori del nostro enum:

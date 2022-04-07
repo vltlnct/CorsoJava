@@ -41,8 +41,8 @@ class Bilancio implements Comparable<Bilancio> {
         }
     @Override
     public int hashCode() {
-        int code = ((nominativo == null) ? 0 : nominativo.hashCode());
-//        int code = Objects.hash(nominativo);
+//        int code = ((nominativo == null) ? 0 : nominativo.hashCode());
+        int code = Objects.hash(nominativo);
 //        System.out.println("hashCode() -> Nome:[" + getNominativo() + "] hashCode:[" + code+"]");
         return code;
     }
