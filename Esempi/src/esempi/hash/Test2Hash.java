@@ -1,85 +1,28 @@
 package esempi.hash;
 import java.util.*;
-
-// Primo uso di una HashMap
-// Esempio per la gestione dei metodi: put(), get(),  keySet(), values(), entrySet()
-
-class Bilancio implements Comparable<Bilancio> {
-    private String nominativo;
-    private double valore;
-
-    public Bilancio(String nominativo, double valore) {
-        this.nominativo = nominativo;
-        this.valore = valore;
-    }
-    public String getNominativo() {
-        return nominativo;
-    }
-    public double getValore() {
-        return valore;
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        // prima confronto gli oggetti
-            if (this == obj)
-                return true;
-            if (obj == null)
-                return false;
-            if (getClass() != obj.getClass())
-                return false;
-
-            if (!(obj instanceof Bilancio)) return false;
-            // Ora contronto gli attributi chiave dell'oggetto
-            Bilancio altroBilancio = (Bilancio) obj;
-            if (nominativo == null) {
-                if (altroBilancio.nominativo != null)
-                    return false;
-            } else if (!nominativo.equals(altroBilancio.nominativo))
-                return false;
-            return true;
-        }
-    @Override
-    public int hashCode() {
-//        int code = ((nominativo == null) ? 0 : nominativo.hashCode());
-        int code = Objects.hash(nominativo);
-//        System.out.println("hashCode() -> Nome:[" + getNominativo() + "] hashCode:[" + code+"]");
-        return code;
-    }
-
-    @Override
-    public int compareTo(Bilancio o) {
-        if (this.getNominativo()==null)
-            return -1;
-        if (o.getNominativo()==null)
-            return -1;
-        return  getNominativo().compareTo(o.getNominativo());
-    }
-
-
-    // Questi sono i comportamenti dei metodi di default degli oggetti padre
-    /*
-    @Override
-    public boolean equals(Object obj) {
-        return this.equals(obj);
-    }
-
-    @Override
-    public int hashCode() {
-        int code = super.hashCode();
-        System.out.println("hashCode() -> [" + code+"]");
-        return code;
-    }
-
-    */
-}
-
 public class Test2Hash {
 
     public static void main(String args[]) {
         // HashSet
 
-        // Ricordiamoci che le HashSet per definizione non gestiscono chiavi ripetute...
+        /*
+        public booleano add( E  e)
+        Aggiunge l'elemento specificato a questo set se non è già presente. Più formalmente, aggiunge
+        l'elemento specificato e a questo insieme se questo insieme non contiene alcun elemento
+        e2 tale che (e==null ? e2==null : e.equals(e2)).
+        Se questo set contiene già l'elemento, la chiamata lascia il Set invariato e restituisce false.
+        Quindi l'inserimento o meno del valore all'interno dalla HashSet dipende dal valore di
+        ritorno del metodo equals(Object obj).
+        */
+
+        // Analizzare il comportamento con Override del metodo public boolean equals(Object obj) di Bilancio
+
+        // Ricordiamoci che per definizione le HashSet non gestiscono chiavi ripetute... su cosa è basato tale principio ?
+        // Sul fatto che il metodo equals(Object o) ritorni true o false
+
+        // Perchè su una HashSet di semplici stringhe non ho duplicati ? Perchè a classe String fa override
+        // del metodo equals() (vedere Javadoc String.equals() )
+
         // Da qui facciamo alcune considerazioni su come vengono create le chiavi tramite le funzioni hash
         // Innanzi tutto dove sono le funzioni hash ?
 
@@ -88,15 +31,15 @@ public class Test2Hash {
         HashSet<Bilancio> hs = new HashSet<>();
         hs.add(new Bilancio("Maria", 4367.34));
         hs.add(new Bilancio("Paolo", 95.43));
-        hs.add(new Bilancio(null, 4367.34));
-        hs.add(new Bilancio("Maria", 4367.34));
+        hs.add(new Bilancio(null, 222.34));
+        hs.add(new Bilancio("Maria", 12.34));
         hs.add(new Bilancio("Giulio", 1200.00));
         hs.add(new Bilancio("Claudia", 499.22));
         hs.add(new Bilancio("Marco", 78.48));
         hs.add(new Bilancio(null, 200.34));
 
         for(Bilancio b : hs){
-            System.out.println(b.getNominativo()+ " "+ b.getValore());
+            System.out.println(b.getNominativo()+ " - "+ b.getValore() + " - " + b.hashCode());
         }
 
 /*
@@ -110,8 +53,16 @@ public class Test2Hash {
 
 */
 
-/*
 
+
+
+/*      public  V  put(  chiave K , valore V  )
+        Associa il valore specificato alla chiave specificata in questa mappa.
+        Se la mappa conteneva in precedenza una mappatura per la chiave, il
+        vecchio valore viene sostituito.
+*/
+
+/*
         // HashMap
         System.out.println("\n\nLa HashSet dei bilanci è : \n");
 
@@ -138,7 +89,7 @@ public class Test2Hash {
 
 */
 
-        // Come possiamo ordinare la HashMap
+        // Come possiamo ordinare la HashMap una TreeMap
 /*
         System.out.println("\n\nLa HashMap dei bilanci ordinata è : \n");
         TreeMap<Bilancio, String> sorted = new TreeMap<>();
