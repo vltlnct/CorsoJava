@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd22e8dc-b447-47c4-a29d-312709e8c9fb" name="Changes" comment="04.04.2022">
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/enums/GestioneSemi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/enums/Semi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/generics/Confronta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/generics/GestioneProdotti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/generics/OrdinaPerCodice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/generics/Pila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/generics/Prodotto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Esempi/src/esempi/optional/TestOptional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Esempi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Esempi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Esempi/src/esempi/enums/VisualizzaStagioni.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Esempi/src/esempi/enums/VisualizzaStagioni.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Esempi/src/esempi/stream/TestOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Esempi/src/esempi/optional/TestOptional1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Magazzino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/geststream/GestioneFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/geststream/GestioneFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +95,10 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -183,6 +177,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

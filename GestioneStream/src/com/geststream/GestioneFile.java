@@ -28,8 +28,9 @@ public class GestioneFile {
 
     // Il metodo è obsoleto. Viene utilizzato il metodo leggiStream()
     public ArrayList leggiFileTesto () {
-        //FileReader rappresenta un
+
         ArrayList listaRighe =  new ArrayList();
+        //FileReader rappresenta un  oggetto per la gestione dei File collegato file system
         FileReader readerFileTesto = null;
         try {
             readerFileTesto = new FileReader(fileTestoIn);
