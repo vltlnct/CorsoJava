@@ -1,7 +1,9 @@
 package esempi.hash;
 // Esempio per la gestione dei metodi hashCode() e equals()
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 
 class Libro {
 
@@ -76,6 +78,9 @@ public class GestioneLibri {
          alla chiave utilizzata nella funzione hash, verifichiamo ora se entrambi i libri vengono
          inseriti nella HashSet hs,
          */
+
+        List<Libro> lista = new ArrayList();
+
         HashSet<Libro> hs = new HashSet<>();
         hs.add(libro1);
         hs.add(libro2);

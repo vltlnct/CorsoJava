@@ -16,7 +16,8 @@ public class Test1Hash {
         acc_balance.put("Giulio", 1200.00);
         acc_balance.put("Claudia", 499.22);
         acc_balance.put("Marco", 78.48);
-        acc_balance.put("Maria", 4367.34);
+        acc_balance.put("Maria", 111.1);
+        acc_balance.put("Maria", 55.0);
         acc_balance.put(null, 54.43);
         System.out.println("La HashMap dei bilanci è : ");
 
@@ -28,7 +29,6 @@ public class Test1Hash {
 
         }
 
-        /*
         // Iterare la HashMap tramite la chiave
         for (String key : acc_balance.keySet()) {
             System.out.println("Nome :" + key);
@@ -41,7 +41,7 @@ public class Test1Hash {
         System.out.println();
         // Aggiorno il bilancio di Paolo aggiungendo 1000 al valore memorizzato.
         double balance = ((Double)acc_balance.get("Paolo")).doubleValue();
-        hs.add("Paolo", balance + 1000);
+        acc_balance.put("Paolo", balance + 1000);
         //print the contents of updated account
         System.out.println("Il bilancio di Paolo è: " + acc_balance.get("Paolo")+ "\n");
 
@@ -52,24 +52,36 @@ public class Test1Hash {
             System.out.println("Nome:[" + key + "] Valore:[" + value+"]");
 
         }
-        */
+/*
 
         // Usiamo ora una HashSet a cui passiamo un solo parametro
-/*        HashSet<String> hs = new HashSet<>();
+        HashSet<String> hs = new HashSet<>();
         // initialize the HashMap
-        hs.add("Maria");
+        String st1 = new String("Maria");
+        String st2 = new String("Maria");
+
+        hs.add(st1);
         hs.add("Paolo");
         hs.add(null);
         hs.add("Giulio");
         hs.add("Claudia");
         hs.add("Marco");
-        hs.add("Maria");
+        hs.add(st2);
+
+*/
+/*
+        if (st2 == st1) {}   // ai puntatori
+        if ( st2.equals(st1) ) {} // dominio applicativo
+*//*
+
+
         hs.add(null);
         System.out.println("\n\nLa HashSet dei Nomi è : ");
 
         for(String s : hs){
             System.out.println(s);
-        }*/
+        }
+*/
 
     }
 

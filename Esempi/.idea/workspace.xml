@@ -2,41 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da30c3b7-7a5f-4557-81f0-40cd5bb6404b" name="Changes" comment="07.04.2022">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/eccezioni/NestedNullPointer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/eccezioni/Sqrt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/enums/GestioneSemi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/enums/PeriodoNascita.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/enums/Persona.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/enums/Semi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/enums/Stagione.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/enums/StagioneConValori.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/enums/TavolaPeriodica.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/enums/VisualizzaStagioni.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/enums/VisualizzaTavolaPeriodica.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/generics/Confronta.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/generics/GestioneProdotti.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/generics/OrdinaPerCodice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/generics/Pila.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/generics/Prodotto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/hash/Bilancio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/hash/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/hash/GestioneLibri.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/hash/Libro.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/hash/Test1Hash.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/hash/Test2Hash.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/hash/Test3Hash.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/optional/Impiegato.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/optional/TestOptional.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/optional/TestOptional1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/stream/Magazzino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Esempi/esempi/stream/StreamFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/stream/Magazzino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esempi/stream/StreamFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/hash/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esempi/hash/GestCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestioneStream/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestioneStream/src/Magazzino" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/src/Magazzino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/inputFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esempi/hash/Bilancio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esempi/hash/Bilancio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esempi/hash/GestioneLibri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esempi/hash/GestioneLibri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esempi/hash/Test1Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esempi/hash/Test1Hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esempi/hash/Test2Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esempi/hash/Test2Hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esempi/hash/Test3Hash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esempi/stream/StreamFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esempi/stream/StreamFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +28,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -126,9 +107,11 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CorsoJava\Esempi" />
       <recent name="F:\xampp\htdocs\CorsoJava\Esempi" />
       <recent name="F:\xampp\htdocs\CorsoJava\Esempi\src" />
     </key>
@@ -276,7 +259,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="07.04.2022" />
@@ -285,11 +267,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17.0.2/lib/src.zip!/java.base/java/lang/Object.java</url>
-          <line>162</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/esempi/hash/Test2Hash.java</url>
           <line>31</line>

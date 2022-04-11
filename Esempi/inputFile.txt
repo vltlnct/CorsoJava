@@ -1,10 +1,4 @@
-Studente,"Marco","Neri",30
-Studente,"Paolo","Rossi",30
-Studente,"Franco","Verdi",35
-Studente,"Giulio","Bianchi",32
-Docente,"Maria","Gialli",45,"Italiano"
-Docente,"Piero","Blu",50,"Informatica"
-Amministrativo,"Claudio","Zeta",50,"01/01/2019"
-Amministrativo,"Giulia","Beta",50,"01/01/2021"
-Amministrativo,"Giovanni","Alfa",50,"01/01/2020"
-Amministrativo,"Claudia","Gamma",50,"01/01/2018"
+100.5,22/01/2022,maggio
+200.5,22/01/2021,aprile
+
+

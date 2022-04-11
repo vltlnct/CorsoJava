@@ -15,7 +15,8 @@ public class Test2Hash {
         ritorno del metodo equals(Object obj).
         */
 
-        // Analizzare il comportamento con Override del metodo public boolean equals(Object obj) di Bilancio
+        /*
+         Analizzare il comportamento con Override del metodo public boolean equals(Object obj) di Bilancio
 
         // Ricordiamoci che per definizione le HashSet non gestiscono chiavi ripetute... su cosa è basato tale principio ?
         // Sul fatto che il metodo equals(Object o) ritorni true o false
@@ -25,7 +26,9 @@ public class Test2Hash {
 
         // Da qui facciamo alcune considerazioni su come vengono create le chiavi tramite le funzioni hash
         // Innanzi tutto dove sono le funzioni hash ?
+        */
 
+/*
         System.out.println("\n\nLa HashSet dei bilanci è : \n");
 
         HashSet<Bilancio> hs = new HashSet<>();
@@ -38,11 +41,10 @@ public class Test2Hash {
         hs.add(new Bilancio("Marco", 78.48));
         hs.add(new Bilancio(null, 200.34));
 
+        System.out.println("------");
         for(Bilancio b : hs){
             System.out.println(b.getNominativo()+ " - "+ b.getValore() + " - " + b.hashCode());
         }
-
-/*
 
         System.out.println("\n\nLa HashSet dei bilanci ordinata è : \n");
         TreeSet myTreeSet = new TreeSet(hs);
@@ -50,9 +52,7 @@ public class Test2Hash {
             Bilancio obj = ((Bilancio)entry);
             System.out.println(" Nome:[" + obj.getNominativo() + "] Valore:[" + obj.getValore()+"]");
         }
-
 */
-
 
 
 
@@ -61,11 +61,8 @@ public class Test2Hash {
         Se la mappa conteneva in precedenza una mappatura per la chiave, il
         vecchio valore viene sostituito.
 */
-
-/*
         // HashMap
-        System.out.println("\n\nLa HashSet dei bilanci è : \n");
-
+        System.out.println("\n\nLa HashMap dei bilanci è : \n");
         HashMap<Bilancio, String> hs = new HashMap();
         hs.put(new Bilancio("Maria", 4367.34), "Roma");
         hs.put(new Bilancio("Paolo", 95.43), "Milano");
@@ -87,10 +84,7 @@ public class Test2Hash {
             System.out.println(" Nome:[" + key.getNominativo() + "] Valore:[" + value+"]");
         }
 
-*/
-
         // Come possiamo ordinare la HashMap una TreeMap
-/*
         System.out.println("\n\nLa HashMap dei bilanci ordinata è : \n");
         TreeMap<Bilancio, String> sorted = new TreeMap<>();
         // Copy all data from hashMap into TreeMap
@@ -102,7 +96,6 @@ public class Test2Hash {
             System.out.println(" Nome:[" + key.getNominativo() + "] Valore:[" + value+"]");
         }
 
-        */
 
     }
 }
