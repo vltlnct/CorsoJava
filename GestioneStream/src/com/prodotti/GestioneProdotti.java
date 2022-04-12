@@ -1,6 +1,9 @@
 package com.prodotti;
 
 import com.google.gson.Gson;
+import com.prodotti.Abbigliamento.Abbigliamento;
+import com.prodotti.Alimentare.Alimentare;
+import com.prodotti.Elettronico.Elettronico;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -29,19 +32,19 @@ public class GestioneProdotti {
             Date dScad = null;
 
             switch (attributi[0]){
-                case "Alimenti":
+                case "Alimentare":
                     try {
                         dIn = (new SimpleDateFormat("dd/mm/yyyy")).parse(attributi[2]);
                         dScad = (new SimpleDateFormat("dd/mm/yyyy")).parse(attributi[5]);
                     } catch (ParseException  e){}
 
-                    retval = new Alimento(attributi[1],  dIn, attributi[3], attributi[4], dScad, attributi[6]);
+                    retval = new Alimentare(attributi[1],  dIn, attributi[3], attributi[4], dScad, attributi[6]);
                     break;
-                case "Vestiario":
+                case "Abbigliamento":
                     try {
                         dIn = (new SimpleDateFormat("dd/mm/yyyy")).parse(attributi[2]);
                     } catch (ParseException  e){}
-                    retval = new Vestiario(attributi[1], dIn, attributi[3],attributi[4], attributi[5], attributi[6],
+                    retval = new Abbigliamento(attributi[1], dIn, attributi[3],attributi[4], attributi[5], attributi[6],
                             attributi[7], Integer.valueOf(attributi[8]) );
                     break;
                 case "Elettronici":
@@ -59,11 +62,11 @@ public class GestioneProdotti {
             return listaProdotti;
         }
 
-        public ArrayList<Alimento> getListaAlimenti(){
-            ArrayList<Alimento> listaAlimenti = new ArrayList<Alimento>();
+        public ArrayList<Alimentare> getListaAlimenti(){
+            ArrayList<Alimentare> listaAlimenti = new ArrayList<Alimentare>();
             for (Prodotto elementoCorrente: listaProdotti){
-                if (elementoCorrente instanceof Alimento)
-                    listaAlimenti.add( (Alimento) elementoCorrente);
+                if (elementoCorrente instanceof Alimentare)
+                    listaAlimenti.add( (Alimentare) elementoCorrente);
             }
             return listaAlimenti;
         }
@@ -99,7 +102,5 @@ public class GestioneProdotti {
         }
         System.out.println();
     }
-
-
 
 }

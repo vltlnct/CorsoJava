@@ -1,18 +1,18 @@
-Alimenti,A001,27/03/2022,Pollo,Amadori,01/05/2022,Italia
-Alimenti,A002,28/03/2022,Mele,Golden,01/04/2022,Italia
-Alimenti,A003,29/03/2022,Uova,Bio,03/04/2022,Italia
-Vestiario,V001,28/03/2022,Giacca,Desigual,Sportivo,U,Misto Lana,48
-Vestiario,V002,29/03/2022,Pantaloni,Armani,Classico,D,Cotone,38
-Vestiario,V003,30/03/2022,Camicia,Ralph Lauren,Sportiva,D,Cotone,38
-Elettronici,E001,31/03/2022,Personal Computer,Asus,A
-Elettronici,E002,01/04/2022,TV,Samsung,A
-Elettronici,E003,27/03/2022,Memoria SD,SanDisk,B
-Alimenti,A004,28/03/2022,Tacchino,Amadori,05/05/2022,Italia
-Alimenti,A005,29/03/2022,Marmellata,Bio,06/10/2022,Italia
-Alimenti,A006,01/04/2022,Miele,Bio,07/10/2022,Ungheria
-Vestiario,V004,02/04/2022,Cappotto,Armani,Sportivo,D,Misto Lana,40
-Vestiario,V005,03/04/2022,Pantaloni,Ralph Lauren,Classico,U,Cotone,48
-Vestiario,V006,04/04/2022,Calze,Armani,Classico,U,Seta,42
-Elettronici,E004,05/04/2022,Frigorifero,Samsung,C
-Elettronici,E005,27/03/2022,Lavastoviglie,Miele,B
-Elettronici,E006,28/03/2022,Frigorifero,Miele,A
+Alimentare,A001,27/03/2022,Pollo,Amadori,01/05/2022,Italia
+Alimentare,A002,28/03/2022,Mele,Golden,01/04/2022,Italia
+Alimentare,A003,29/03/2022,Uova,Bio,03/04/2022,Italia
+Abbigliamento,V001,28/03/2022,Giacca,Desigual,Sportivo,U,Misto Lana,48
+Abbigliamento,V002,29/03/2022,Pantaloni,Armani,Classico,D,Cotone,38
+Abbigliamento,V003,30/03/2022,Camicia,Ralph Lauren,Sportiva,D,Cotone,38
+Elettronico,E001,31/03/2022,Personal Computer,Asus,A
+Elettronico,E002,01/04/2022,TV,Samsung,A
+Elettronico,E003,27/03/2022,Memoria SD,SanDisk,B
+Alimentare,A004,28/03/2022,Tacchino,Amadori,05/05/2022,Italia
+Alimentare,A005,29/03/2022,Marmellata,Bio,06/10/2022,Italia
+Alimentare,A006,01/04/2022,Miele,Bio,07/10/2022,Ungheria
+Abbigliamento,V004,02/04/2022,Cappotto,Armani,Sportivo,D,Misto Lana,40
+Abbigliamento,V005,03/04/2022,Pantaloni,Ralph Lauren,Classico,U,Cotone,48
+Abbigliamento,V006,04/04/2022,Calze,Armani,Classico,U,Seta,42
+Elettronico,E004,05/04/2022,Frigorifero,Samsung,C
+Elettronico,E005,27/03/2022,Lavastoviglie,Miele,B
+Elettronico,E006,28/03/2022,Frigorifero,Miele,A

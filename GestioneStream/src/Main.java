@@ -1,5 +1,6 @@
 import com.geststream.GestioneFile;
 import com.prodotti.*;
+import com.prodotti.Elettronico.Elettronico;
 
 import java.text.ParseException;
 import java.util.ArrayList;
@@ -13,9 +14,7 @@ public class Main {
 
 //        gestioneProdotti = new GestioneProdotti(g.leggiFileTesto());
         gestioneProdotti = new GestioneProdotti(g.leggiStream());
-
         ArrayList listaProdotti = gestioneProdotti.getListaProdotti();
-
 
         System.out.println("\n\nOrdinamento di tutti i prodotti per codice\n");
         gestioneProdotti.sort();
@@ -23,19 +22,13 @@ public class Main {
         // Uso di JSON
         String conVJSON = gestioneProdotti.toJSON();
         g.scriviFileJSON(conVJSON);
-
-
         /*
-        ArrayList<Alimento> l = gestioneProdotti.getListaAlimenti();
-        Alimento*/
-
+        ArrayList<Alimentare> l = gestioneProdotti.getListaAlimenti();
+        */
         ArrayList<Elettronico> e = gestioneProdotti.getListaElettronici();
         Elettronico.ordinaPerClasseEnergetica(e);
-
         for (Elettronico elementoCorrente: e){
                 System.out.println( elementoCorrente);
         }
-
-
     }
 }

@@ -1,28 +1,27 @@
 Si vuole gestire un magazzino che si occupa del primo livello logistico di distribuzione di
 prodotti di vario genere. Tutti i prodotti sono caratterizzati da alcune informazioni comuni.
 
-a) un codice alfanumerico formato da 9 caratteri di cui 3 sono riservati alla tipologia merceologica del
-prodotto da immagazzinare e 5 ad un numero progressivo.
-Tipologie merceologiche :
-ele : prodotti Elettronici
-ali : prodotti Alimentari
-ves : prodotti Vestiario
+a) un codice alfanumerico formato da 4 caratteri di cui 1 è riservato alla tipologia
+merceologica del prodotto da immagazzinare e 3 ad un numero progressivo.
+I codici merceologici avranno i seguenti valori :
+    E : prodotto Elettronico
+    A : prodotto Alimentare
+    V : prodotti Abbigliamento
 b) una data di ingresso del prodotto, nel formato gg/mm/aaaa
 c) un nome che descriva il prodotto;
-d) un nome per l'azienda produttrice.
+d) un nome che identifichi l'azienda produttrice.
+
 Inoltre vi sono alcune informazioni caratteristiche per ogni singola tipologia merceologica.
-Per i prodotti Elettronici:
-classe energetica di appartenenza : (valori possibili : A,B,C,D)
-
-Per i prodotti Alimentari :
-date scadenza (gg/mm/aaaa) e
-paese di provenienza (es. Italia, Francia ecc.);
-
-Per i prodotti Vestiario :
-modello (es. Sportivo, Classico, ...)
-sesso (es. M, F, U);
-materiale (es. lana, cotone, misto, ...)
-taglia (es. 38, 40,...);
+Elettronico:
+    classe energetica di appartenenza : (valori possibili : A,B,C,D);
+Alimentare :
+    date scadenza (gg/mm/aaaa);
+    paese di provenienza (es. Italia, Francia ecc.);
+Abbigliamento :
+    modello (es. Sportivo, Classico, ...);
+    sesso (es. M, F, U);
+    materiale (es. lana, cotone, misto, ...);
+    taglia (es. 38, 40,...).
 
 Vogliamo realizzare un'applicazione in Java che riceva in ingresso la lista dei prodotti.
 Questi potrebbere ad esempio essere ricevuti tramite servizi di rete (es. Rest),
