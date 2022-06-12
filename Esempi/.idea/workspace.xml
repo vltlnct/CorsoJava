@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da30c3b7-7a5f-4557-81f0-40cd5bb6404b" name="Changes" comment="11.04.2022">
-      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Academy.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wrapper.zip" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pattern Java.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Soluzione Mid-Term/Soluzioni/ThreeInRow/ThreeInRow.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/InversionOfControl/InversionOfControl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebServer_1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Esempi/esempi/stream/Magazzino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esempi/eccezioni/Sqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esempi/eccezioni/Sqrt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esempi/stream/StreamFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esempi/stream/StreamFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/JSON_Prodotti.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/JSON_Prodotti.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/Struttura File Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/Struttura File Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/src/Magazzino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/src/com/geststream/GestioneFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/src/com/geststream/GestioneFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/src/com/prodotti/Elettronico/Elettronico.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/src/com/prodotti/Elettronico/Elettronico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/src/com/prodotti/GestioneProdotti.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/src/com/prodotti/GestioneProdotti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestioneStream/src/com/prodotti/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GestioneStream/src/com/prodotti/Prodotto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServer_1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer_1/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer_1/out/production/WebServer_1/BasicHttpServerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServer_1/out/production/WebServer_1/BasicHttpServerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer_1/src/BasicHttpServerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServer_1/src/BasicHttpServerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../___12662.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +122,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -110,7 +133,7 @@
       <recent name="F:\xampp\htdocs\CorsoJava\Esempi\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main-StreamFile">
+  <component name="RunManager" selected="Application.Main-Sqrt">
     <configuration name="M Ain-TestOptional" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="esempi.optional.TestOptional" />
       <module name="Esempi" />
@@ -276,5 +299,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Esempi$Main_Sqrt.ic" NAME="Main-Sqrt Coverage Results" MODIFIED="1651501949820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

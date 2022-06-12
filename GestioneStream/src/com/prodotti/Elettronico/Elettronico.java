@@ -14,9 +14,6 @@ import java.util.*;
  */
 
 public class Elettronico extends Prodotto implements Comparable<Elettronico> {
-
-
-
     private String classeEnergetica;
 
     public Elettronico(String codice, Date dataIngresso, String nome, String produttore, String classeEnergetica) {

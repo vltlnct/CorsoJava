@@ -1,7 +1,7 @@
 Formato delle righe in input del file input.txt
 
-Alimentare,codice,dataIngresso,nome,produttore,scadenza,provenienza
+Alimentare,codice prodotto,data ingresso,nome,produttore,scadenza,provenienza
 
-Abbigliamento,codice,dataIngresso,nome,produttore,modello,sesso,materiale,taglia
+Abbigliamento,codice prodotto,data ingresso,nome,produttore,modello,sesso,materiale,taglia
 
-Elettronici,codice,dataIngresso,nome,produttore,classeEnergetica
+Elettronico,codice prodotto,data ingresso,nome,produttore,classe energetica

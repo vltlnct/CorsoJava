@@ -47,7 +47,7 @@ public class GestioneProdotti {
                     retval = new Abbigliamento(attributi[1], dIn, attributi[3],attributi[4], attributi[5], attributi[6],
                             attributi[7], Integer.valueOf(attributi[8]) );
                     break;
-                case "Elettronici":
+                case "Elettronico":
                     try {
                         dIn = (new SimpleDateFormat("dd/mm/yyyy")).parse(attributi[2]);
                     } catch (ParseException  e){}

@@ -33,6 +33,10 @@ public class Main {
 
 
     public static void main(String[] args) {
+
+        Comparatore c = new OrdinaPerCognome();
+
+
         ListaComponenti listaTotale = new ListaComponenti(10);
 
         listaTotale.addComponente(new Persona("Marco", "Neri", 30));

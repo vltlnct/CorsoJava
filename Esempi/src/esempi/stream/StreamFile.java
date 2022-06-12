@@ -83,5 +83,6 @@ public class StreamFile {
 
         l = myStream.getStream();
         System.out.println(l);
+
     }
 }

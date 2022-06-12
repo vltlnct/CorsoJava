@@ -1,18 +1,18 @@
-{"scadenza":"Jan 1, 2022, 12:05:00 AM","provenienza":"Italia","codice":"A001","dataIngresso":"Jan 27, 2022, 12:03:00 AM","nome":"Pollo","produttore":"Amadori"}
-{"scadenza":"Jan 1, 2022, 12:04:00 AM","provenienza":"Italia","codice":"A002","dataIngresso":"Jan 28, 2022, 12:03:00 AM","nome":"Mele","produttore":"Golden"}
-{"scadenza":"Jan 3, 2022, 12:04:00 AM","provenienza":"Italia","codice":"A003","dataIngresso":"Jan 29, 2022, 12:03:00 AM","nome":"Uova","produttore":"Bio"}
-{"scadenza":"Jan 5, 2022, 12:05:00 AM","provenienza":"Italia","codice":"A004","dataIngresso":"Jan 28, 2022, 12:03:00 AM","nome":"Tacchino","produttore":"Amadori"}
-{"scadenza":"Jan 6, 2022, 12:10:00 AM","provenienza":"Italia","codice":"A005","dataIngresso":"Jan 29, 2022, 12:03:00 AM","nome":"Marmellata","produttore":"Bio"}
-{"scadenza":"Jan 7, 2022, 12:10:00 AM","provenienza":"Ungheria","codice":"A006","dataIngresso":"Jan 1, 2022, 12:04:00 AM","nome":"Miele","produttore":"Bio"}
-{"classeEnergetica":"A","codice":"E001","dataIngresso":"Jan 31, 2022, 12:03:00 AM","nome":"Personal Computer","produttore":"Asus"}
-{"classeEnergetica":"A","codice":"E002","dataIngresso":"Jan 1, 2022, 12:04:00 AM","nome":"TV","produttore":"Samsung"}
-{"classeEnergetica":"B","codice":"E003","dataIngresso":"Jan 27, 2022, 12:03:00 AM","nome":"Memoria SD","produttore":"SanDisk"}
-{"classeEnergetica":"C","codice":"E004","dataIngresso":"Jan 5, 2022, 12:04:00 AM","nome":"Frigorifero","produttore":"Samsung"}
-{"classeEnergetica":"B","codice":"E005","dataIngresso":"Jan 27, 2022, 12:03:00 AM","nome":"Lavastoviglie","produttore":"Miele"}
-{"classeEnergetica":"A","codice":"E006","dataIngresso":"Jan 28, 2022, 12:03:00 AM","nome":"Frigorifero","produttore":"Miele"}
-{"modello":"Sportivo","sesso":"U","materiale":"Misto Lana","taglia":48,"codice":"V001","dataIngresso":"Jan 28, 2022, 12:03:00 AM","nome":"Giacca","produttore":"Desigual"}
-{"modello":"Classico","sesso":"D","materiale":"Cotone","taglia":38,"codice":"V002","dataIngresso":"Jan 29, 2022, 12:03:00 AM","nome":"Pantaloni","produttore":"Armani"}
-{"modello":"Sportiva","sesso":"D","materiale":"Cotone","taglia":38,"codice":"V003","dataIngresso":"Jan 30, 2022, 12:03:00 AM","nome":"Camicia","produttore":"Ralph Lauren"}
-{"modello":"Sportivo","sesso":"D","materiale":"Misto Lana","taglia":40,"codice":"V004","dataIngresso":"Jan 2, 2022, 12:04:00 AM","nome":"Cappotto","produttore":"Armani"}
-{"modello":"Classico","sesso":"U","materiale":"Cotone","taglia":48,"codice":"V005","dataIngresso":"Jan 3, 2022, 12:04:00 AM","nome":"Pantaloni","produttore":"Ralph Lauren"}
 {"modello":"Classico","sesso":"U","materiale":"Seta","taglia":42,"codice":"V006","dataIngresso":"Jan 4, 2022, 12:04:00 AM","nome":"Calze","produttore":"Armani"}
+{"modello":"Classico","sesso":"U","materiale":"Cotone","taglia":48,"codice":"V005","dataIngresso":"Jan 3, 2022, 12:04:00 AM","nome":"Pantaloni","produttore":"Ralph Lauren"}
+{"modello":"Sportivo","sesso":"D","materiale":"Misto Lana","taglia":40,"codice":"V004","dataIngresso":"Jan 2, 2022, 12:04:00 AM","nome":"Cappotto","produttore":"Armani"}
+{"modello":"Sportiva","sesso":"D","materiale":"Cotone","taglia":38,"codice":"V003","dataIngresso":"Jan 30, 2022, 12:03:00 AM","nome":"Camicia","produttore":"Ralph Lauren"}
+{"modello":"Classico","sesso":"D","materiale":"Cotone","taglia":38,"codice":"V002","dataIngresso":"Jan 29, 2022, 12:03:00 AM","nome":"Pantaloni","produttore":"Armani"}
+{"modello":"Sportivo","sesso":"U","materiale":"Misto Lana","taglia":48,"codice":"V001","dataIngresso":"Jan 28, 2022, 12:03:00 AM","nome":"Giacca","produttore":"Desigual"}
+{"classeEnergetica":"A","codice":"E006","dataIngresso":"Jan 28, 2022, 12:03:00 AM","nome":"Frigorifero","produttore":"Miele"}
+{"classeEnergetica":"B","codice":"E005","dataIngresso":"Jan 27, 2022, 12:03:00 AM","nome":"Lavastoviglie","produttore":"Miele"}
+{"classeEnergetica":"C","codice":"E004","dataIngresso":"Jan 5, 2022, 12:04:00 AM","nome":"Frigorifero","produttore":"Samsung"}
+{"classeEnergetica":"B","codice":"E003","dataIngresso":"Jan 27, 2022, 12:03:00 AM","nome":"Memoria SD","produttore":"SanDisk"}
+{"classeEnergetica":"A","codice":"E002","dataIngresso":"Jan 1, 2022, 12:04:00 AM","nome":"TV","produttore":"Samsung"}
+{"classeEnergetica":"A","codice":"E001","dataIngresso":"Jan 31, 2022, 12:03:00 AM","nome":"Personal Computer","produttore":"Asus"}
+{"scadenza":"Jan 7, 2022, 12:10:00 AM","provenienza":"Ungheria","codice":"A006","dataIngresso":"Jan 1, 2022, 12:04:00 AM","nome":"Miele","produttore":"Bio"}
+{"scadenza":"Jan 6, 2022, 12:10:00 AM","provenienza":"Italia","codice":"A005","dataIngresso":"Jan 29, 2022, 12:03:00 AM","nome":"Marmellata","produttore":"Bio"}
+{"scadenza":"Jan 5, 2022, 12:05:00 AM","provenienza":"Italia","codice":"A004","dataIngresso":"Jan 28, 2022, 12:03:00 AM","nome":"Tacchino","produttore":"Amadori"}
+{"scadenza":"Jan 3, 2022, 12:04:00 AM","provenienza":"Italia","codice":"A003","dataIngresso":"Jan 29, 2022, 12:03:00 AM","nome":"Uova","produttore":"Bio"}
+{"scadenza":"Jan 1, 2022, 12:04:00 AM","provenienza":"Italia","codice":"A002","dataIngresso":"Jan 28, 2022, 12:03:00 AM","nome":"Mele","produttore":"Golden"}
+{"scadenza":"Jan 1, 2022, 12:05:00 AM","provenienza":"Italia","codice":"A001","dataIngresso":"Jan 27, 2022, 12:03:00 AM","nome":"Pollo","produttore":"Amadori"}

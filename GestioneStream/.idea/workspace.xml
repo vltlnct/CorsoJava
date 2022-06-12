@@ -2,11 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd22e8dc-b447-47c4-a29d-312709e8c9fb" name="Changes" comment="10.04.2022">
-      <change afterPath="$PROJECT_DIR$/../___12662.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Academy.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Corso.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wrapper.zip" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pattern Java.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Soluzione Mid-Term/Soluzioni/ThreeInRow/ThreeInRow.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/InversionOfControl/InversionOfControl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebServer_1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Corso/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Corso/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Esempi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Esempi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Esempi/out/production/Esempi/esempi/stream/Magazzino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Esempi/src/esempi/eccezioni/Sqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Esempi/src/esempi/eccezioni/Sqrt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Esempi/src/esempi/stream/StreamFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Esempi/src/esempi/stream/StreamFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON_Prodotti.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JSON_Prodotti.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Struttura File Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Struttura File Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Magazzino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/geststream/GestioneFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/geststream/GestioneFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/prodotti/Elettronico/Elettronico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/prodotti/Elettronico/Elettronico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/prodotti/GestioneProdotti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/prodotti/GestioneProdotti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/prodotti/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/prodotti/Prodotto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServer_1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer_1/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer_1/out/production/WebServer_1/BasicHttpServerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServer_1/out/production/WebServer_1/BasicHttpServerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServer_1/src/BasicHttpServerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServer_1/src/BasicHttpServerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../___12662.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +122,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -197,16 +217,25 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/prodotti/Prodotto.java</url>
           <line>13</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/prodotti/Alimentare/OrdinaDataIngresso.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/prodotti/GestioneProdotti.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

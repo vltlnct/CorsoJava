@@ -11,7 +11,7 @@ class OrdinaPerCodice implements Comparator<Prodotto> {
     @Override
     public int compare(Prodotto o1, Prodotto o2) {
         // usa il metodo compareTo di String
-        return o2.getCodice().compareTo(o1.getCodice());
+        return o1.getCodice().compareTo(o2.getCodice());
     }
 }
 

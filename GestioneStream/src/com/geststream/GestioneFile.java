@@ -22,8 +22,8 @@ public class GestioneFile {
     Stream<String> buffStream;
 
 
-    public ArrayList leggiStream () {
-        return (ArrayList) fileStream.collect(Collectors.toList());
+    public ArrayList<String> leggiStream () {
+        return (ArrayList<String>) fileStream.collect(Collectors.toList());
     }
 
     // Il metodo è obsoleto. Viene utilizzato il metodo leggiStream()
